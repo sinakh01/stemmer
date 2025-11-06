@@ -1,0 +1,11 @@
+friend
+roman
+countryman
+lend
+me
+your
+ear
+
+--- Evaluation Factors ---
+Precision: 1.00
+Recall: 1.00
