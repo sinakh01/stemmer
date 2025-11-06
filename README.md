@@ -66,5 +66,6 @@ Based on comparing your output tokens vs. a gold standard.
 
 **Expected Output**: ['john', 'new', 'usa', 'laptop', 'state-of-the-art', 'device', 'price', 'high', 'but', 'quality', 'amazing']
 
-**Precision:** 0.75 
-**Recall:** 1.00
+**Precision:** 0.8 
+
+**Recall:** 0.8
