@@ -1,12 +1,13 @@
 from utilities.file_utils import read_text_file, write_list_to_file
 from utilities.preprocessing_utils import remove_stopwords, normalize_words, stem_words
 from utilities.evaluation_utils import calculate_precision, calculate_recall
+"""
+Ghabl az ejra bayad pishniyazha nasb shavad:
+1. python -m venv venv
+venv\Scripts\activate
 
-# Ghabl az ejra bayad pishniyazha nasb shavad:
-# 1.python python -m venv venv
-# venv\Scripts\activate
-
-# 2. pip install -r requirements.txt
+2. pip install -r requirements.txt
+"""
 
 # Insert the path for the input file that needs to processed
 input_text = read_text_file("tests/input1.txt")
