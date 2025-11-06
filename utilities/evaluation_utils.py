@@ -1,38 +1,17 @@
 from typing import List
 from collections import Counter
-"""
-Precision:
-Precision measures how many of the items you predicted as “positive” were actually correct.
 
-Precision = True Positives (TP) / (True Positives (TP) + False Positives (FP))
+"""
+collections.Counter turns each list into a dictionary of word frequencies:
 
 Example:
-If your system predicts 10 words as correct, but only 7 of them actually match the gold standard:
+predicted = ["cat", "cat", "dog", "fish"]
+expected = ["cat", "dog", "dog"]
 
-Precision = 7/10
-
----------------
-
-Recall:
-Recall measures how many of the actual correct items your model successfully found.
-
-Recall = True Positives (TP) / (True Positives (TP) + False Negatives(FN))
-
-Example:
-If there are 10 correct words in total, and your model only finds 7 of them:
-
-Recall = 7/10
+Then:
+predicted_counts = {"cat": 2, "dog": 1, "fish": 1}
+expected_counts  = {"cat": 1, "dog": 2}
 """
-
-# collections.Counter turns each list into a dictionary of word frequencies:
-
-# Example:
-# predicted = ["cat", "cat", "dog", "fish"]
-# expected = ["cat", "dog", "dog"]
-
-# Then:
-# predicted_counts = {"cat": 2, "dog": 1, "fish": 1}
-# expected_counts  = {"cat": 1, "dog": 2}
 
 def calculate_precision(predicted: List[str], expected: List[str]) -> float:
     if not predicted:

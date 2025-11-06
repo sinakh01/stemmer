@@ -1,18 +1,20 @@
 from utilities.file_utils import read_text_file, write_list_to_file
 from utilities.preprocessing_utils import remove_stopwords, normalize_words, stem_words
 from utilities.evaluation_utils import calculate_precision, calculate_recall
+
 """
+https://github.com/sinakh01/stemmer
+
 Ghabl az ejra bayad pishniyazha nasb shavad:
 1. python -m venv venv
-venv\Scripts\activate
-
+2. venv\Scripts\activate
 2. pip install -r requirements.txt
 """
 
-# Insert the path for the input file that needs to processed
-input_text = read_text_file("tests/input1.txt")
-# Insert the path for the manually created file that contains the expected words
-golden_output = read_text_file("tests/output1.txt").split()
+# Insert the relative path for the input file that needs to processed
+input_text = read_text_file("tests/input2.txt")
+# Insert the relative path for the manually created file that contains the expected words
+golden_output = read_text_file("tests/output2.txt").split()
 word_list = input_text.lower().split()
 
 output = stem_words(normalize_words(remove_stopwords(word_list)))
