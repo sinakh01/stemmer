@@ -1,5 +1,3 @@
-Simple NLTK Stemmer & Text Normalization Script
-
 This project implements a **lightweight NLP preprocessing pipeline** using **NLTK**.  
 It includes:
 
