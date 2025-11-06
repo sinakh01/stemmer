@@ -1,8 +1,6 @@
 john
 new
-u
-s
-a
+usa
 laptop
 state-of-the-art
 device
@@ -13,5 +11,5 @@ quality
 amazing
 
 --- Evaluation Factors ---
-Precision: 0.77
-Recall: 0.91
+Precision: 1.00
+Recall: 1.00

@@ -12,9 +12,9 @@ Ghabl az ejra bayad pishniyazha nasb shavad:
 """
 
 # Insert the relative path for the input file that needs to processed
-input_text = read_text_file("tests/input2.txt")
+input_text = read_text_file("tests/input1.txt")
 # Insert the relative path for the manually created file that contains the expected words
-golden_output = read_text_file("tests/output2.txt").split()
+golden_output = read_text_file("tests/output1.txt").split()
 word_list = input_text.lower().split()
 
 output = stem_words(normalize_words(remove_stopwords(word_list)))
