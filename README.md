@@ -58,13 +58,12 @@ Based on comparing your output tokens vs. a gold standard.
 
 ---
 
-✅ Example Output:
+## ✅ Example Output:
 
-Input: John's new U.S.A. laptop is a state-of-the-art device. The price is high, but the quality is amazing!
+**Input**: John's new U.S.A. laptop is a state-of-the-art device. The price is high, but the quality is amazing!
 
-Script Output: ['john', 'new', 'usa', 'laptop', 'state-of-the-art', 'device', 'price', 'high', 'but', 'quality', 'amazing']
+**Script Output**: ['john', 'new', 'usa', 'laptop', 'state-of-the-art', 'device', 'price', 'high', 'but', 'quality', 'amazing']
+**Expected Output**: ['john', 'new', 'usa', 'laptop', 'state-of-the-art', 'device', 'price', 'high', 'but', 'quality', 'amazing']
 
-Expected Output: ['john', 'new', 'usa', 'laptop', 'state-of-the-art', 'device', 'price', 'high', 'but', 'quality', 'amazing']
-
-Precision: 0.75 
-Recall: 1.00
+**Precision:** 0.75 
+**Recall:** 1.00
